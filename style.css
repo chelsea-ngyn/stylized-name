@@ -1,0 +1,18 @@
+@keyframes animation {
+    from {color: rgb(248, 167, 46);}
+    to {color: darkolivegreen;}
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family: 'Work sans';
+    color: rgb(248, 167, 46);
+    font-size: 700%;
+    text-align:center;
+    text-shadow: 2px 2px 5px burlywood;
+    animation-name: animation;
+    animation-duration: 10s;
+}
